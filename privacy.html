@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Yuki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0b0d;
+            --surface-color: #141417;
+            --border-color: #232329;
+            --text-primary: #f2f2f5;
+            --text-secondary: #a1a1aa;
+            --accent-color: #5865F2;
+            --accent-hover: #4752c4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-secondary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.75;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .wrapper {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 0 64px;
+        }
+
+        /* Header Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 56px;
+        }
+
+        .brand {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+            text-decoration: none;
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 6px;
+            transition: color 0.2s ease, background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-primary);
+            background-color: var(--surface-color);
+        }
+
+        .btn-support {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 8px 18px;
+            border-radius: 6px;
+            letter-spacing: 0.02em;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-support:hover {
+            background-color: var(--accent-hover);
+        }
+
+        /* Document Title Area */
+        .doc-header {
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.1;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        .meta-date {
+            font-size: 0.875rem;
+            color: #71717a;
+            font-style: italic;
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 36px;
+        }
+
+        h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+            font-size: 0.95rem;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a.inline-link {
+            color: var(--text-primary);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #52525b;
+            transition: text-decoration-color 0.2s;
+        }
+
+        a.inline-link:hover {
+            text-decoration-color: var(--text-primary);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 72px;
+            padding-top: 28px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: #71717a;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            header { flex-direction: column; gap: 16px; align-items: flex-start; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <a href="index.html" class="brand">Yuki ✦</a>
+            <div class="nav-actions">
+                <a href="terms.html" class="nav-link">Terms of Service</a>
+                <a href="https://discord.gg/BAw9kdm24" target="_blank" class="btn-support">SUPPORT</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="doc-header">
+                <h1>Privacy Policy</h1>
+                <div class="meta-date">Last Updated: November 14, 2026</div>
+            </div>
+
+            <section>
+                <h2>1. Overview</h2>
+                <p>Your privacy matters. This Privacy Policy outlines what minimal information <strong>Yuki</strong> collects, how it is utilized to provide bot functionality, and your rights regarding your data.</p>
+            </section>
+
+            <section>
+                <h2>2. Information We Collect</h2>
+                <p>Yuki does not read, log, or store your private messages or personal account details. To ensure configuration settings and features work properly, we only store essential identifiers in an encrypted database:</p>
+                <ul>
+                    <li><strong>Server (Guild) IDs:</strong> Used to save custom prefixes, welcome channels, auto-roles, and moderation logs.</li>
+                    <li><strong>User IDs:</strong> Stored strictly when you interact with economy, leveling, or custom profile commands.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Data Usage & Security</h2>
+                <p>Collected IDs and configuration settings are used exclusively to execute commands and maintain server preferences. We never sell, rent, or share any stored data with third-party advertisers or external entities.</p>
+            </section>
+
+            <section>
+                <h2>4. Data Retention & Deletion</h2>
+                <p>Server configuration data is automatically purged if Yuki is removed from a server for an extended period. If you wish to request immediate deletion of your user or server data, you may contact the developer via our <a href="https://discord.gg/BAw9kdm24" target="_blank" class="inline-link">Support Server</a>.</p>
+            </section>
+
+            <section>
+                <h2>5. Policy Updates</h2>
+                <p>This Privacy Policy may be revised periodically as new features are introduced to Yuki. Continued use of the bot following any updates constitutes acceptance of the revised policy.</p>
+            </section>
+        </main>
+
+        <footer>
+            <span>Copyright © 2026 Yuki Bot. All rights reserved.</span>
+            <span><a href="https://discord.gg/BAw9kdm24" target="_blank" class="inline-link">Support Server</a></span>
+        </footer>
+    </div>
+
+</body>
+</html>
