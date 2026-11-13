@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — Yuki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0b0d;
+            --surface-color: #141417;
+            --border-color: #232329;
+            --text-primary: #f2f2f5;
+            --text-secondary: #a1a1aa;
+            --accent-color: #5865F2;
+            --accent-hover: #4752c4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-secondary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.75;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .wrapper {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 0 64px;
+        }
+
+        /* Header Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 56px;
+        }
+
+        .brand {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+            text-decoration: none;
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 6px;
+            transition: color 0.2s ease, background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-primary);
+            background-color: var(--surface-color);
+        }
+
+        .btn-support {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 8px 18px;
+            border-radius: 6px;
+            letter-spacing: 0.02em;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-support:hover {
+            background-color: var(--accent-hover);
+        }
+
+        /* Document Title Area */
+        .doc-header {
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.1;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        .meta-date {
+            font-size: 0.875rem;
+            color: #71717a;
+            font-style: italic;
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 36px;
+        }
+
+        h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+            font-size: 0.95rem;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a.inline-link {
+            color: var(--text-primary);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #52525b;
+            transition: text-decoration-color 0.2s;
+        }
+
+        a.inline-link:hover {
+            text-decoration-color: var(--text-primary);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 72px;
+            padding-top: 28px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: #71717a;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            header { flex-direction: column; gap: 16px; align-items: flex-start; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <a href="terms.html" class="brand">Yuki ✦</a>
+            <div class="nav-actions">
+                <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                <a href="https://discord.gg/BAw9kdm24" target="_blank" class="btn-support">SUPPORT</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="doc-header">
+                <h1>Terms of Service</h1>
+                <div class="meta-date">Effective Date: November 14, 2026</div>
+            </div>
+
+            <section>
+                <h2>1. Acceptance of Terms</h2>
+                <p>By inviting, accessing, or using the <strong>Yuki</strong> Discord application ("Service") within your Discord server or direct messages, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you must immediately discontinue using the bot and remove it from your server.</p>
+            </section>
+
+            <section>
+                <h2>2. Permitted Use & Conduct</h2>
+                <p>Yuki is provided as a multi-purpose utility, moderation, and entertainment companion for Discord communities. While interacting with the Service, users agree not to:</p>
+                <ul>
+                    <li>Abuse, spam, or intentionally overload commands to disrupt service stability.</li>
+                    <li>Exploit bugs, vulnerabilities, or unintended mechanics for unfair advantage.</li>
+                    <li>Use the bot in violation of Discord's official <a href="https://discord.com/terms" target="_blank" class="inline-link">Terms of Service</a> or Community Guidelines.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Intellectual Property</h2>
+                <p>All branding, visual assets, custom command structures, and underlying code associated with Yuki remain the exclusive intellectual property of its creator. You may not copy, resell, or redistribute any part of the Service without explicit prior permission.</p>
+            </section>
+
+            <section>
+                <h2>4. Service Availability & Modifications</h2>
+                <p>We strive to keep Yuki online and responsive at all times, though uninterrupted uptime is not guaranteed. Features, commands, and virtual systems may be updated, modified, or discontinued at any time without prior notice. We also reserve the right to restrict access to any user or server found violating these terms.</p>
+            </section>
+
+            <section>
+                <h2>5. Contact & Support</h2>
+                <p>If you have questions regarding these terms, need assistance, or wish to report an issue, please reach out through our official <a href="https://discord.gg/BAw9kdm24" target="_blank" class="inline-link">Support Server</a> or contact the developer directly via Discord.</p>
+            </section>
+        </main>
+
+        <footer>
+            <span>Copyright © 2026 Yuki Bot. All rights reserved.</span>
+            <span><a href="https://discord.gg/BAw9kdm24" target="_blank" class="inline-link">Support Server</a></span>
+        </footer>
+    </div>
+
+</body>
+</html>
